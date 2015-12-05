@@ -5,3 +5,7 @@
 		<p><%= place.description %></p><br />
 	</div>
 <% end %>
+
+<%= paginate @places %>
+<br />
+<%= page_entries_info @places %>
