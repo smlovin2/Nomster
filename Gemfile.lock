@@ -131,7 +131,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.5)
+  bootstrap-sass (~> 3.3.5.1)
   coffee-rails (~> 4.0.0)
   devise (>= 3.2.4)
   jbuilder (~> 1.2)
@@ -139,7 +139,7 @@ DEPENDENCIES
   kaminari
   pg
   rails (= 4.0.1)
-  sass-rails (~> 4.0.0)
+  sass-rails
   sdoc
   simple_form
   sprockets (= 2.11.0)
