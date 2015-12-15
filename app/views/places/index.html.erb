@@ -62,7 +62,7 @@
 		<% end %>
 
 		<% if place.photos.present? %>
-			<div class="booyah-box col-xs-4">
+			<div class="booyah-box col-xs-12 col-sm-6">
 				<%= image_tag place.photos.first.picture, :class => "img-responsive center-block thumbnail" %>
 				<i><%= place.photos.first.caption %></i>
 			</div>
