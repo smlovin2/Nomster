@@ -19,6 +19,13 @@
 	      </blockquote>
 	    </div>
 		<% end %>
+
+		<% if place.photos.present? %>
+			<div class="booyah-box col-xs-4">
+				<%= image_tag place.photos.first.picture, :class => "img-responsive center-block" %>
+				<i><%= place.photos.first.caption %></i>
+			</div>
+		<% end %>
 	</div>
 <% end %>
 
